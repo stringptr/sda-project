@@ -1,0 +1,14 @@
+
+Greedy job scheduling
+
+Setiap job dengan duration(waktu pengerjaan yang dibutuhkan), deadlines dan reward/penalti dari menyelesaikan atau tidak menyelesaikan job
+- Optional = 
+  Dependency, harus menyelesaikan satu job untuk dapat mengerjakan job lain (menggunakan graph)
+  Resource limitation, resource dibutuhkan untuk menyelesaikan suatu job
+  Preemption dan Multiprocessor Scheduling, job bisa di-pause dan bisa dilanjut kapan-pun sebelum melewati deadline, job bisa berjalan paralel, mungkin penalti jika job di delay
+Tujuan = mencari job mana yang harus dikerjakan untuk mendapat point yang paling tinggi.
+
+Materi = 
+Interval Sorting
+Topological Graph
+DAG, A DIrected Acyclic Graph
